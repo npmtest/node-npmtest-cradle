@@ -1,6 +1,6 @@
 # npmtest-cradle
 
-#### test coverage for  [cradle (v0.7.1)](https://github.com/flatiron/cradle#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cradle.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cradle) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cradle.svg)](https://travis-ci.org/npmtest/node-npmtest-cradle)
+#### basic test coverage for  [cradle (v0.7.1)](https://github.com/flatiron/cradle#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cradle.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cradle) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cradle.svg)](https://travis-ci.org/npmtest/node-npmtest-cradle)
 
 #### the high-level, caching, CouchDB library
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cradle/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cradle/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cradle/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cradle/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cradle/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cradle/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cradle/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cradle/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cradle/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cradle/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cradle/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cradle/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "test": "node test/helpers/seed.js && vows --spec"
     },
     "url": "http://cloudhead.io/cradle",
-    "version": "0.7.1"
+    "version": "0.7.1",
+    "bin": {}
 }
 ```
 
